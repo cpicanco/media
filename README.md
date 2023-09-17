@@ -3,7 +3,7 @@ Here lives an LFS (https://git-lfs.com/) repository for media files used to stim
 
 It contains `*.png`, `*.ttf`, `*.wav` files of the COLANG: The COLANG consists of 4 consonants, 4 vowels, and pseudowords of the CVCV type, primary emphasis at the second syllable. This system allows for the creation, through combination, of syllables (16) and words (256). The following pages illustrate the correspondence between the possible combinations..
 
-Media inside the `docs` folder are used for only for repository documentation.
+Media inside the `docs` folder are used for only for the current repository documentation.
 
 ## PNG files
 
@@ -15,6 +15,7 @@ PNG files are photos of unusual objects with transparent background. Their filen
 
 
 `cvcv` (where `c` means `consonant` and `vowels`) filenames indicates files randomily copied from the `base` folder.
+
 
 
 ## WAV files
