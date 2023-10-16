@@ -7,7 +7,7 @@ This repository contains all `*.png`, `*.ttf`, `*.wav` media files of the COLANG
 
 The COLANG consists of 4 consonants, 4 vowels, and `cvcv` pseudowords (`c` and `v` meaning consonant and vowel, respectively) with primary emphasis at the second syllable (see [Hanna et al. (2011)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3014779/)). This system allows, through combination, the creation of syllables (N = 16) and words (N = 256).
 
-## A word as an Equivalence Class
+## A word for each Equivalence Class
 Throughout an experimental session, [the software](https://github.com/cpicanco/stimulus-control-sdl2/) assumes that each `cvcv` pseudoword is an Stimulus Equivalence Class ([Sidman, 2000](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1284788/)). Equivalence Classes are used, for example, for teaching and assessment of reading comprehension. In Behavior Analysis, the terminology of Equivalence Classes usually reserves capital words for each class. Here, we assume that:
 
 `A` means auditive stimuli presented to the participant;   
