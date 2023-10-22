@@ -1,4 +1,4 @@
-# Purpose: Join multiple WAV files into one WAV file with 2.5 seconds of silence between each WAV file.
+# Purpose: Join multiple WAV files into one WAV file with silence between each WAV file.
 # thanks to ChatGPT and GitHub copilot
 # thanks to https://stackoverflow.com/questions/2890703/how-to-join-two-wav-files-using-python
 # thanks to https://stackoverflow.com/questions/10357992/how-to-generate-audio-from-a-numpy-array

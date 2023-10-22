@@ -2,8 +2,11 @@ import os
 
 from folders import rafael_wav_folder
 
+current_dir = os.getcwd()
+words_file = os.path.join(current_dir, 'words.txt')
+
 # Read the list of words from your text file
-with open('words.txt', 'r') as file:
+with open(words_file, 'r') as file:
     word_list = file.read().splitlines()
 
 folder_path = rafael_wav_folder()
