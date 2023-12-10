@@ -1,22 +1,22 @@
 import os
 
-from folders import rafael_wav_folder
+from folders import daap_wav_folder
 
 current_dir = os.getcwd()
-words_file = os.path.join(current_dir, 'words.txt')
+words_file = os.path.join(current_dir, 'words-daap.txt')
 
 # Read the list of words from your text file
 with open(words_file, 'r') as file:
     word_list = file.read().splitlines()
 
-folder_path = rafael_wav_folder()
+folder_path = daap_wav_folder()
 
 # Use glob to get a list of all WAV files in the folder
 file_list = os.listdir(folder_path)
 
 # Iterate through the files and rename them
 for index, filename in enumerate(file_list):
-    if filename.startswith('word-'):
+    if filename.startswith('cvc-'):
         # Extract the number from the filename
         number = int(filename.split('-')[1].split('.')[0])
         if 1 <= number <= len(word_list):
