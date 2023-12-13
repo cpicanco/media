@@ -14,7 +14,7 @@ def join_wav_files(wav_files):
     else:
         # Create silence
         sample_rate = 44100  # Adjust the sample rate as needed
-        duration = 5.0  # Duration of silence in seconds
+        duration = 2.0  # Duration of silence in seconds
         num_frames = int(sample_rate * duration)
         silence_data = np.zeros(num_frames, dtype=np.int16)
 
@@ -49,10 +49,10 @@ if __name__ == '__main__':
 
     # Use glob to get a list of all WAV files in the folder
     wav_files = glob.glob(os.path.join(rafael_wav_folder(), '*.wav'))
-    random.shuffle(wav_files)
-    with open('output.txt', 'w') as text_file:
-        # Write each file name on a separate line
-        for wav_file in wav_files:
-            text_file.write(wav_file + '\n')
+    # random.shuffle(wav_files)
+    # with open('output_microsoft.txt', 'w') as text_file:
+    #     # Write each file name on a separate line
+    #     for wav_file in wav_files:
+    #         text_file.write(wav_file + '\n')
 
     join_wav_files(wav_files)
