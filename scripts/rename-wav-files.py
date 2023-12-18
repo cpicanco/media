@@ -1,6 +1,7 @@
 import os
 
-from folders import rafael_wav_folder
+# from folders import rafael_wav_folder
+from folders import giulia_wav_folder
 
 current_dir = os.getcwd()
 words_file = os.path.join(current_dir, 'words.txt')
@@ -9,7 +10,8 @@ words_file = os.path.join(current_dir, 'words.txt')
 with open(words_file, 'r') as file:
     word_list = file.read().splitlines()
 
-folder_path = rafael_wav_folder()
+# folder_path = rafael_wav_folder()
+folder_path = giulia_wav_folder()
 
 # Use glob to get a list of all WAV files in the folder
 file_list = os.listdir(folder_path)
