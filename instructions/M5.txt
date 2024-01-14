@@ -1,1 +1,1 @@
-O computador irá mostrar uma palavra no centro. Eu quero que você toque nela. Em seguida, duas palavras irão aparecer nos cantos. Eu quero que toque na palavra no canto que for igual a palavra do centro.
+Desta vez o som de acerto irá tocar as vezes sim, as vezes não. Faça o melhor que você puder.
